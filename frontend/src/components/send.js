@@ -65,7 +65,7 @@ class Send extends Component {
            Donor
          </Form.Label>
          <Col sm="8">
-           <Form.Control onChange={this.handleDonor} value={this.state.Donor} placeholder="Enter Donor Name" />
+           <Form.Control onChange={this.handleDonor} value={this.state.Donor} placeholder="Enter Donor Address" />
          </Col>
        </Form.Group>
 
@@ -74,7 +74,7 @@ class Send extends Component {
            Receiver
          </Form.Label>
          <Col sm="8">
-           <Form.Control onChange={this.handleReceiver} value={this.state.Receiver} placeholder="Enter Receiver Name" />
+           <Form.Control onChange={this.handleReceiver} value={this.state.Receiver} placeholder="Enter Receiver Address" />
          </Col>
        </Form.Group>
 
